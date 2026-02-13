@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রিয় শ্রেয়া | Retro Letter</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap');
+
+        body {
+            /* Retro paper-like background */
+            background-color: #dcd0c0;
+            background-image: radial-gradient(#c1b398 0.5px, transparent 0.5px);
+            background-size: 20px 20px;
+            font-family: 'Hind Siliguri', serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .retro-container {
+            max-width: 500px;
+            width: 100%;
+            background: #f4ebd0; /* Aged paper color */
+            padding: 50px;
+            border-radius: 2px;
+            box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+            position: relative;
+            border: 1px solid #c1b398;
+            /* Vintage texture effect */
+            background-image: url('https://www.transparenttextures.com/patterns/parchment.png');
+        }
+
+        /* Retro "stamp" or seal effect */
+        .retro-container::after {
+            content: "♥";
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: #a64d4d;
+            border: 2px solid #a64d4d;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.6;
+            transform: rotate(15deg);
+        }
+
+        h1 {
+            color: #5d4037; /* Dark retro brown */
+            font-size: 26px;
+            margin-bottom: 30px;
+            font-weight: 700;
+            border-bottom: 1px solid #dcd0c0;
+            display: inline-block;
+        }
+
+        .letter-body {
+            color: #3e2723;
+            line-height: 2.2;
+            font-size: 19px;
+            text-align: justify;
+            white-space: pre-line;
+            letter-spacing: 0.5px;
+        }
+
+        .signature {
+            margin-top: 50px;
+            text-align: right;
+            font-weight: 700;
+            color: #5d4037;
+            font-size: 22px;
+            font-style: italic;
+        }
+
+        /* Typewriter style cursor effect for retro feel */
+        .retro-container::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px);
+            background-size: 100% 3rem;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="retro-container">
+        <h1>প্রিয় শ্রেয়া,</h1>
+        
+        <div class="letter-body">
+            আজকের এই বিশেষ দিনে মনের কিছু কথা তোমাকে বলতে চাই। সত্যি বলতে, তুমি আসার পর থেকে আমার জীবনটা এক অন্যরকম পূর্ণতা পেয়েছে। 
+
+            তুমি শুধু আমার ভালোবাসাই নও, তুমি আমার সবথেকে কাছের বন্ধু। তোমার ওই মিষ্টি হাসি আর আমার প্রতি তোমার এই অগাধ বিশ্বাস আমাকে প্রতিদিন আরও ভালো মানুষ হওয়ার অনুপ্রেরণা জোগায়। কাজের ব্যস্ততা বা সিভিল ইঞ্জিনিয়ারিংয়ের এই জটিল হিসেবনিকেশের মাঝে তোমার একটা ফোন বা মেসেজ আমার সব ক্লান্তি দূর করে দেয়।
+
+            আমি কথা দিচ্ছি, জীবনের প্রতিটি মোড়ে, সব সাফল্যে আর সব struggle-এ আমি এভাবেই তোমার হাত ধরে পাশে থাকব। আমাদের এই সুন্দর সম্পর্কটা যেন সারা জীবন এভাবেই অটুট থাকে। 
+
+            তোমাকে খুব ভালোবাসি।
+        </div>
+
+        <div class="signature">
+            ইতি,<br>
+            তোমার অভ্রজ্যোতি
+        </div>
+    </div>
+
+</body>
+</html>
